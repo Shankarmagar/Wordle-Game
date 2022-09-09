@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:outlineProvider="none"
+    tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineProvider="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        app:layout_wrapBehaviorInParent="skipped">
+
+        <TableRow
+            android:id="@+id/first"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/fTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/fThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/fFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/sOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/sTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/sThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/sFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10px"
+                android:width="150px"
+                android:height="150px"
+                android:background="@color/b1"
+                android:padding="35px"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="301dp"
+        android:layout_height="430dp"
+        android:background="@color/b2"
+        android:rotationX="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.297">
+
+        <TextView
+            android:id="@+id/guessOne"
+            android:layout_width="254dp"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="346dp"
+            android:text="Guess #1"
+            android:textColor="#455A64" />
+
+        <TextView
+            android:id="@+id/guessTwo"
+            android:layout_width="254dp"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="284dp"
+            android:text="Guess #2"
+            android:textColor="#455A64" />
+
+        <TextView
+            android:id="@+id/guessThree"
+            android:layout_width="253dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="154dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="217dp"
+            android:text="Guess #3"
+            android:textColor="#455A64" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="374dp">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="135dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="81dp"
+            android:layout_marginTop="361dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginBottom="21dp"
+            android:background="@color/white"
+            android:text="@string/submit"
+            android:textColor="#757575" />
+
+        <EditText
+            android:id="@+id/enteredByUser"
+            android:layout_width="252dp"
+            android:layout_height="54dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="285dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="91dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter Four letter words" />
+
+        <TextView
+            android:id="@+id/ShuffledWords"
+            android:layout_width="155dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="226dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="163dp"
+            android:text="TextView"
+            android:visibility="gone"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/Reset"
+            android:layout_width="128dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="363dp"
+            android:layout_marginEnd="88dp"
+            android:layout_marginBottom="22dp"
+            android:visibility="gone"
+            android:text="Reset" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
